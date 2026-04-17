@@ -102,10 +102,10 @@ Cluster maps were used to:
 - Reveal hidden structure in expression patterns
 
 
-![Genes with similar expression](project_path + "Genes with similar expression.png)
+![gene_cluster_heatmap.png](images/gene_cluster_heatmap.png.png)
 
   
-- Clustering supports biological interpretation and pattern discovery.
+- The cluster-based heatmap reveals structured patterns in gene expression across cancer types, suggesting the presence of groups of genes with similar expression behavior. These patterns highlight the possibility of functionally related gene groups, where genes may be co-expressed or co-activated under similar biological conditions
 
 - Technologies Used for this analysis:
   - Python
