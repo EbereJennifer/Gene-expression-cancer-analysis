@@ -100,8 +100,8 @@ Keyoutcome: The heatmap reveals clear differences in gene expression patterns ac
 
 Step 9: Cluster Map Visualization
 Cluster maps were used to:
-- Group genes with similar expression profiles
-- Reveal hidden structure in expression patterns
+  - Group genes with similar expression profiles
+  - Reveal hidden structure in expression patterns
 
 ![gene_cluster_heatmap.png](images/gene_cluster_heatmap.png.png)
 
