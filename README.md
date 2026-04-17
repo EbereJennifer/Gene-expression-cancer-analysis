@@ -24,11 +24,11 @@ The analysis uses two datasets:
 Contains gene expression measurements of 20,530 genes (features)
 801 patient samples (observations)
 
-  - Each row represents one sample and each column represents one gene(see data).
+- Each row represents one sample and each column represents one gene(see data).
 
 2. Label Dataset:
 Contains sample/class identifiers
-  - Includes cancer-type classification for each sample
+- Includes cancer-type classification for each sample
 
 ##### Project Workflow
 
@@ -52,31 +52,31 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
-![Distribution of Cancer Types across 801 samples](project_path + "Distribution of Cancer Types across 801 samples.png)
-
+![Distribution of Cancer Types across 801 samples](images/distribution_of_cancer_types_across_801_samples.png)
+![Heatmap of Top Variable Genes Across Cancer Types](images/Heatmap_of_Top_Variable_Genes_Across_Cancer_Types.png)
 
 Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
 Step 6: Gene Variability Analysis
 Variance was used as the primary metric to identify 10 highly variable genes across samples.
 
-- Process:
-  - Compute variance for each gene
-  - Sort genes by variance
-  - Select top 10 most variable genes
+Process:
+- Compute variance for each gene
+- Sort genes by variance
+- Select top 10 most variable genes
   
 |Top 10 genes| Variance|
-|------------|--------|
-|gene_9176   | 44.76  |
-|gene_9175   | 36.36  |
-|gene_15898  | 34.50  |
-|gene_15301  | 33.46  |
-|gene_15589  | 31.33  |
-|gene_3540   | 30.59  |
-|gene_19661  | 30.08  |
-|gene_3541   | 28.72  |
-|gene_11250  | 26.52  |
-|gene_15897  | 26.02  |
+|------------|---------|
+|gene_9176   | 44.76   |
+|gene_9175   | 36.36   |
+|gene_15898  | 34.50   |
+|gene_15301  | 33.46   |
+|gene_15589  | 31.33   |
+|gene_3540   | 30.59   |
+|gene_1966   | 30.08   |
+|gene_3541   | 28.72   |
+|gene_1125   | 26.52   |
+|gene_1589   | 26.02   |
 
 These genes are strong candidates for distinguishing cancer-specific expression behavior.
 
@@ -90,7 +90,7 @@ Heatmaps were generated to visualize:
 - Relative gene activity patterns
 
 
-![Heatmap of Top Variable Genes Across Cancer Types](project_path + "Heatmap of Top Variable Genes Across Cancer Types.png)
+![Heatmap of Top Variable Genes Across Cancer Types](image/Heatmap of Top Variable Genes Across Cancer Types.png)
 
 The heatmap reveals clear differences in gene expression patterns across cancer types. For example:
 
@@ -119,12 +119,12 @@ Cluster maps were used to:
   - Seaborn
   
 ##### Key Results
-  - Identified top high-variance genes across samples
-  - Observed cancer-type-specific expression patterns
-  - Visualized expression differences using heatmaps
-  - Clustered genes with similar expression behavior
+- Identified top high-variance genes across samples
+- Observed cancer-type-specific expression patterns
+- Visualized expression differences using heatmaps
+- Clustered genes with similar expression behavior
 
-- These findings highlight genes that may serve as potential biomarkers for distinguishing cancer types.
+These findings highlight genes that may serve as potential biomarkers for distinguishing cancer types.
 
 ##### Future Improvements
 Possible extensions of this project:
@@ -132,13 +132,15 @@ Apply dimensionality reduction (PCA / t-SNE)
 Perform classification using machine learning models
 Conduct pathway enrichment analysis
 
-##### Constraints
+#####  Constriant
 Due to anonymized gene identifiers, functional biological interpretation is limited; however, observed expression patterns remain valuable for identifying candidate features associated with cancer types.
 
 ##### Author
 Ebere Jennifer Agbarakwe
 MSc. Biomedical Sciences, BSc. Microbiology
-Currently WBS GRUPPE student(Data Science with Python Cert.)
+Currently WBS GRUPPE student (Data Science with Python Cert.)
 
 ##### Data Source
 - https://www.kaggle.com/datasets/waalbannyantudre/gene-expression-cancer-rna-seq-donated-on-682016?resource=download
+
+
