@@ -44,6 +44,7 @@ Step 2: Data Cleaning
 Step 3: Dataset Merging
 The gene expression dataset and class labels were merged using the shared sample identifier column.
 
+
 Step 4: Feature and Label Separation
 - Features (X): gene expression values
 - Labels (y): cancer-type classification
@@ -52,7 +53,8 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
-![heatmap_of_top_variable_gene](images/heatmap_of_top_variable_genes.png)
+
+
 
 - Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
@@ -88,7 +90,8 @@ Heatmaps were generated to visualize:
 - Expression differences across cancer types
 - Relative gene activity patterns
 
-![heatmap.png](images/heatmap.png)
+![heatmap_of_top_variable_gene](images/heatmap_of_top_variable_genes.png)
+
 The heatmap reveals clear differences in gene expression patterns across cancer types. For example:
 
   - PRAD shows strong expression of gene_9176 and gene_9175
