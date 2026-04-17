@@ -52,8 +52,7 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
-![Distribution of Cancer Types across 801 samples](images/distribution_of_cancer_types_across_801_samples.png)
-![Heatmap of Top Variable Genes Across Cancer Types](images/Heatmap_of_Top_Variable_Genes_Across_Cancer_Types.png)
+![distribution_of_cancer_types_across_801_samples](images/distribution_of_cancer_types_across_801_samples.png)
 
 Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
@@ -89,9 +88,7 @@ Heatmaps were generated to visualize:
 - Expression differences across cancer types
 - Relative gene activity patterns
 
-
-![Heatmap of Top Variable Genes Across Cancer Types](image/Heatmap of Top Variable Genes Across Cancer Types.png)
-
+![heatmap.png](images/heatmap.png)
 The heatmap reveals clear differences in gene expression patterns across cancer types. For example:
 
   - PRAD shows strong expression of gene_9176 and gene_9175
