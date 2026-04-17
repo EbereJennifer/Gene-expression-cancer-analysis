@@ -53,7 +53,7 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
-        ![cancer_type_distribution_801](images/cancer_type_distribution_801.png)
+![cancer_type_distribution_801](images/cancer_type_distribution_801.png)
 
 - Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
@@ -135,9 +135,9 @@ Conduct pathway enrichment analysis
 Due to anonymized gene identifiers, functional biological interpretation is limited; however, observed expression patterns remain valuable for identifying candidate features associated with cancer types.
 
 ##### Author
-Ebere Jennifer Agbarakwe
-MSc. Biomedical Sciences, BSc. Microbiology
-Currently WBS GRUPPE student (Data Science with Python Cert.)
+- Ebere Jennifer Agbarakwe
+- MSc. Biomedical Sciences, BSc. Microbiology
+- Currently WBS GRUPPE student (Data Science with Python Cert.)
 
 ##### Data Source
 - https://www.kaggle.com/datasets/waalbannyantudre/gene-expression-cancer-rna-seq-donated-on-682016?resource=download
