@@ -136,7 +136,7 @@ Due to anonymized gene identifiers, functional biological interpretation is limi
 ##### Author
 - Ebere Jennifer Agbarakwe
 - MSc. Biomedical Sciences, BSc. Microbiology
-- Currently WBS GRUPPE student (Data Science with Python Cert.)
+- student (Data Science with Python Cert.)
 
 ##### Data Source
 - https://www.kaggle.com/datasets/waalbannyantudre/gene-expression-cancer-rna-seq-donated-on-682016?resource=download
