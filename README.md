@@ -52,24 +52,30 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
+![Distribution of Cancer Types across 801 samples](project_path + "Distribution of Cancer Types across 801 samples.png)
 
 
-
-
-
-
-Count plots
-Pie chart visualization
-Key outcome: These plots help understand dataset balance across cancer categories.
+Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
 Step 6: Gene Variability Analysis
-Variance was used as the primary metric to identify highly variable genes across samples.
+Variance was used as the primary metric to identify 10 highly variable genes across samples.
 
 Process:
 - Compute variance for each gene
 - Sort genes by variance
 - Select top 10 most variable genes
-
+|Top 10 genes| Variance|
+|---------|--------|
+|gene_9176| 44.76|
+|gene_9175| 36.36|
+|gene_15898| 34.50|
+|gene_15301| 33.46|
+|gene_15589| 31.33|
+|gene_3540| 30.59|
+|gene_19661| 30.08|
+|gene_3541| 28.72|
+|gene_11250| 26.52|
+|gene_15897| 26.02|
 
 
 
