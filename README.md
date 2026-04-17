@@ -77,10 +77,6 @@ Process:
 |gene_11250| 26.52|
 |gene_15897| 26.02|
 
-
-
-
-
 These genes are strong candidates for distinguishing cancer-specific expression behavior.
 
 Step 7: Differential Expression Analysis
@@ -93,12 +89,14 @@ Heatmaps were generated to visualize:
 - Relative gene activity patterns
 
 
+![Heatmap of Top Variable Genes Across Cancer Types](project_path + "Heatmap of Top Variable Genes Across Cancer Types.png)
 
+The heatmap reveals clear differences in gene expression patterns across cancer types. For example:
 
-
-
-
-This helps identify relationships between genes and cancer categories.
+  - PRAD shows strong expression of gene_9176 and gene_9175
+  - LUAD is characterized by elevated gene_15898 expression
+  - COAD and LUAD share expression patterns in gene_3540 and gene_3541
+- These patterns highlight both cancer-specific and shared gene expression profiles.
 
 Step 9: Cluster Map Visualization
 Cluster maps were used to:
@@ -106,9 +104,7 @@ Cluster maps were used to:
 - Reveal hidden structure in expression patterns
 
 
-
-
-
+![Genes with similar expression](project_path + "Genes with similar expression.png)
 
   
 - Clustering supports biological interpretation and pattern discovery.
@@ -122,12 +118,12 @@ Cluster maps were used to:
   - Seaborn
   
 ##### Key Results
-- Identified top high-variance genes across samples
-- Observed cancer-type-specific expression patterns
-- Visualized expression differences using heatmaps
-- Clustered genes with similar expression behavior
+  - Identified top high-variance genes across samples
+  - Observed cancer-type-specific expression patterns
+  - Visualized expression differences using heatmaps
+  - Clustered genes with similar expression behavior
 
-These findings highlight genes that may serve as potential biomarkers for distinguishing cancer types.
+- These findings highlight genes that may serve as potential biomarkers for distinguishing cancer types.
 
 ##### Future Improvements
 Possible extensions of this project:
@@ -135,7 +131,13 @@ Apply dimensionality reduction (PCA / t-SNE)
 Perform classification using machine learning models
 Conduct pathway enrichment analysis
 
-Author
+##### Constraints
+Due to anonymized gene identifiers, functional biological interpretation is limited; however, observed expression patterns remain valuable for identifying candidate features associated with cancer types.
+
+##### Author
 Ebere Jennifer Agbarakwe
 MSc. Biomedical Sciences, BSc. Microbiology
 Currently WBS GRUPPE student(Data Science with Python Cert.)
+
+##### Data Source
+- https://www.kaggle.com/datasets/waalbannyantudre/gene-expression-cancer-rna-seq-donated-on-682016?resource=download
