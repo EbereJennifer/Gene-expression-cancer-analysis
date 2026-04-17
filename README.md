@@ -53,7 +53,7 @@ Step 4: Feature and Label Separation
 Step 5: Exploratory Data Analysis
 Performed initial exploration of class distribution:
 
-![cancer_distribution_801_samples](images/cancer_type_distribution_801.png)
+![cancer_distribution_801_samples](images/cancer_distribution_801_samples.png)
 
 - Key outcome: Analysis of the class distribution reveals that the samples are unevenly distributed across cancer types, with BRCA having the highest number of samples (300), while COAD has the fewest (78). This class imbalance may influence downstream analysis, particularly when comparing gene expression patterns across cancer types
 
